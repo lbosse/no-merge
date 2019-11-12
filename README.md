@@ -1,5 +1,5 @@
 # no-merge
-Web extension that disables GitHub's merge button in pull requests
+A web extension that disables GitHub's merge button in pull requests.
 
 ## A little background...
 This extension came from a problem I was having at work. I just couldn't seem to
