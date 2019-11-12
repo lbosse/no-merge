@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "no-merge",
-  "version": "0.0",
+  "version": "1.0",
 
   "description": "Disables the merge button on a GitHub pull request until an alert is confirmed.",
 
