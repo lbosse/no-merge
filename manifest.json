@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "no-merge",
+  "version": "0.0",
+
+  "description": "Disables the merge button on a GitHub pull request until an alert is confirmed.",
+
+  "icons": {
+    "48": "icons/no-merge.svg",
+    "96": "icons/no-merge.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/AppDetex/*/pull/*"],
+      "js": ["no-merge.js"]
+    }
+  ]
+
+}
